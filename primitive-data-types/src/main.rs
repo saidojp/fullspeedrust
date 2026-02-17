@@ -8,6 +8,8 @@ fn main() {
 fn main2() {
     let x: f64 = 0.2 + 0.3;
     println!("Sum is: {}", x);
+    let text: &str = "おはようございます！";
+    println!("Good morning in Japanese is: {}", text);
     sum();
 }
 
