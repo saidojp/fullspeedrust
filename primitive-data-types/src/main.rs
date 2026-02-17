@@ -1,14 +1,19 @@
-// Primitive Data Types in Rust
-//int, float, boolean, char
-
-//int бывает signed (+ и -) и unsigned (only +*)
-//signed: i8, i16, i32, i64, i128 ... ＊положительные и так же отрицательные＊
-//unsigned: u8, u16, u32, u64, u128 ＊только блять положительные＊
-
 fn main() {
-    let x: i32 = -43;
-    let y: u32 = 53;
+    let amount: i8 = -122;
+    let another_amount: u8 = 255;
+    println!("The amount is: {}, {}", amount, another_amount);
+    main2();
+}
 
-    println!("Signed int: {}, {}", x, y);
-    println!("Unsigned int: {}, {}", y, x);
+fn main2() {
+    let x: f64 = 0.2 + 0.3;
+    println!("Sum is: {}", x);
+    sum();
+}
+
+fn sum() {
+    let j = 1.0;
+    let o: f64 = 0.6;
+    let jo = j + o;
+    println!("sum ami: {}", jo);
 }
