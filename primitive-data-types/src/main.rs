@@ -15,7 +15,7 @@ fn main2() {
 
 fn sum() {
     let j = 1.0;
-    let o: f64 = 0.6;
+    let o: f64 = 0.67323;
     let jo = j + o;
     println!("sum ami: {}", jo);
 }
